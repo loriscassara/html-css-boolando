@@ -84,6 +84,36 @@ a:link, a:visited {
     position: relative;
 }
 
+.img2b {
+    width: 460px;
+    position: absolute;
+    display: none;
+}
+
+.container-img-2:hover .img2 {
+    display: none;
+}
+
+.container-img-2:hover .img2b {
+    display: block;
+    position: relative;
+}
+
+.img3b {
+    width: 460px;
+    position: absolute;
+    display: none;
+}
+
+.container-img-3:hover .img3 {
+    display: none;
+}
+
+.container-img-3:hover .img3b {
+    display: block;
+    position: relative;
+}
+
 .container-desc {
     width: 75%;
     margin: auto;
