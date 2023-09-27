@@ -1,55 +1,10 @@
-/* common UI elements & utilities */
+/* common UI elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
-.d-flex {display: flex;}
-.flex-row {flex-direction: row;}
-.flex-column {flex-direction: column;}
-.flex-justify-between {justify-content: space-between;}
-.flex-justify-around {justify-content: space-around;}
-.flex-justify-center {justify-content: center;}
-.flex-align-center {align-items: center;}
-
-.w-20 {width: 20%;} /* 1/5 */
-.w-25 {width: 25%;} /* 1/4 */
-.w-30 {width: 30%;} /* 1/3 */
-.w-33 {width: 33%;} /* 1/3 */
-.w-40 {width: 40%;} /* 2/5 */
-.w-50 {width: 50%;} /* 1/2 */
-.w-60 {width: 60%;} /* 3/5 */
-.w-66 {width: 66%;} /* 2/3 */
-.w-70 {width: 70%;} /* 1/3 */
-.w-75 {width: 75%;} /* 3/4 */
-.w-80 {width: 80%;} /* 4/5 */
-.w-100 {width: 100%;}
-
-.p-8 {padding: 8px;}
-.pt-8 {padding-top: 8px;}
-.pr-8 {padding-right: 8px;}
-.pb-8 {padding-bottom: 8px;}
-.pl-8 {padding-left: 8px;}
-.py-8 {padding: 8px 0;}
-.px-8 {padding: 0 8px;}
-
-.p-16 {padding: 16px;}
-.pt-16 {padding-top: 16px;}
-.pr-16 {padding-right: 16px;}
-.pb-16 {padding-bottom: 16px;}
-.pl-16 {padding-left: 16px;}
-.py-16 {padding: 16px 0;}
-.px-16 {padding: 0 16px;}
-
-.p-64 {padding: 64px;}
-.pt-64 {padding-top: 64px;}
-.pr-64 {padding-right: 64px; }
-.pb-64 {padding-bottom: 64px;}
-.pl-64 {padding-left: 64px;}
-.py-64 {padding: 64px 0;}
-.px-64 {padding: 0 64px;}
 
 /* start header elements */
 header {
@@ -58,7 +13,7 @@ header {
 }
 
 .header-container {
-    width: 70%;
+    width: 75%;
     margin: auto;
     height: 75px;
 }
@@ -99,4 +54,62 @@ a:link, a:visited {
     width: 25px;
     margin: 0 5px 0 5px;
     filter: invert(1);
+}
+
+/* start main elements */
+.container-main {
+    width: 75%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.img1, .img2, .img3 {
+    width: 460px;
+    position: relative;
+    display: block;
+}
+
+.img1b {
+    width: 460px;
+    position: absolute;
+    display: none;
+}
+
+.container-img-1:hover .img1 {
+    display: none;
+}
+
+.container-img-1:hover .img1b {
+    display: block;
+    position: relative;
+}
+
+.container-desc {
+    width: 75%;
+    margin: auto;
+}
+
+.container-desc1 {
+    padding-right: 87px;
+}
+
+.container-desc2 {
+    padding-left: 95px;
+    padding-right: 87px;
+}
+
+.container-desc3 {
+    padding-left: 265px;
+}
+
+#red {
+    padding-right: 7px;
+    color: red;
+    font-size: large;
+}
+
+#sbarred {
+    color: black;
+    font-size: large;
+    text-decoration: line-through;
 }
