@@ -67,7 +67,7 @@ a:link, a:visited {
     width: 50px;
     position: absolute;
     top: 164px;
-    left: 650px;
+    left: 648px;
     background-color: white;
     border: solid white 7px;
 }
@@ -82,7 +82,7 @@ a:link, a:visited {
     width: 50px;
     position: absolute;
     top: 164px;
-    left: 1140px;
+    left: 1132px;
     background-color: white;
     border: solid white 7px;
 }
@@ -97,12 +97,57 @@ a:link, a:visited {
     width: 50px;
     position: absolute;
     top: 164px;
-    right: 240px;
+    right: 238px;
     background-color: white;
     border: solid white 7px;
 }
 
 #heart3:hover {
+    background-color: red;
+    border-color: red;
+    cursor: pointer;
+}
+
+#heart4 {
+    width: 50px;
+    position: absolute;
+    bottom: -100px;
+    left: 648px;
+    background-color: white;
+    border: solid white 7px;
+}
+
+#heart4:hover {
+    background-color: red;
+    border-color: red;
+    cursor: pointer;
+}
+
+#heart5 {
+    width: 50px;
+    position: absolute;
+    bottom: -100px;
+    left: 1132px;
+    background-color: white;
+    border: solid white 7px;
+}
+
+#heart5:hover {
+    background-color: red;
+    border-color: red;
+    cursor: pointer;
+}
+
+#heart6 {
+    width: 50px;
+    position: absolute;
+    bottom: -100px;
+    right: 238px;
+    background-color: white;
+    border: solid white 7px;
+}
+
+#heart6:hover {
     background-color: red;
     border-color: red;
     cursor: pointer;
@@ -130,7 +175,7 @@ a:link, a:visited {
 #pa3 {
     position: absolute;
     bottom: 150px;
-    left: 730px;
+    left: 722px;
     background-color: red;
     color: white;
     border: solid red 7px;
@@ -140,14 +185,44 @@ a:link, a:visited {
 #pa4 {
     position: absolute;
     bottom: 150px;
-    right: 645px;
+    right: 643px;
     background-color: red;
     color: white;
     border: solid red 7px;
     width: 55px;
 }
 
-.img1, .img2, .img3 {
+#pa5 {
+    position: absolute;
+    bottom: -665px;
+    background-color: red;
+    color: white;
+    border: solid red 7px;
+    width: 55px;
+}
+
+#pa6 {
+    position: absolute;
+    bottom: -665px;
+    left: 300px;
+    background-color: green;
+    color: white;
+    border: solid green 7px;
+    width: 115px;
+}
+
+#pa7 {
+    position: absolute;
+    bottom: -665px;
+    right: 583px;
+    background-color: green;
+    color: white;
+    border: solid green 7px;
+    width: 115px;
+}
+
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
     width: 460px;
     position: relative;
     display: block;
@@ -198,6 +273,51 @@ a:link, a:visited {
     position: relative;
 }
 
+.img4b {
+    width: 460px;
+    position: absolute;
+    display: none;
+}
+
+.container-img-4:hover .img4 {
+    display: none;
+}
+
+.container-img-4:hover .img4b {
+    display: block;
+    position: relative;
+}
+
+.img5b {
+    width: 460px;
+    position: absolute;
+    display: none;
+}
+
+.container-img-5:hover .img5 {
+    display: none;
+}
+
+.container-img-5:hover .img5b {
+    display: block;
+    position: relative;
+}
+
+.img6b {
+    width: 460px;
+    position: absolute;
+    display: none;
+}
+
+.container-img-6:hover .img6 {
+    display: none;
+}
+
+.container-img-6:hover .img6b {
+    display: block;
+    position: relative;
+}
+
 .container-desc {
     width: 75%;
     margin: auto;
@@ -208,12 +328,25 @@ a:link, a:visited {
 }
 
 .container-desc2 {
-    padding-left: 95px;
+    padding-left: 90px;
     padding-right: 87px;
 }
 
 .container-desc3 {
-    padding-left: 265px;
+    padding-left: 258px;
+}
+
+.container-desc4 {
+    padding-right: 250px;
+}
+
+.container-desc5 {
+    padding-left: 90px;
+    padding-right: 87px;
+}
+
+.container-desc6 {
+    padding-left: 209px;
 }
 
 #red {
@@ -226,4 +359,10 @@ a:link, a:visited {
     color: black;
     font-size: large;
     text-decoration: line-through;
+}
+
+/* start footer elements */
+
+footer {
+    
 }
