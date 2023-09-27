@@ -364,5 +364,60 @@ a:link, a:visited {
 /* start footer elements */
 
 footer {
+    background-color: #1a1a1a;
+    border-top: solid white 100px;
+}
+
+.footer-container-title {
+    width: 75%;
+    margin: auto;
+}
+
+.footer-container {
+    width: 75%;
+    margin: auto;
+    height: 25px;
+}
+
+.container-link-footer > h3 {
+    padding-top: 25px;
+    color: white;
+}
+
+.container-link {
+    padding: 0 10px;
+}
+
+.container-link-footer {
+    padding: 0 10px;
+}
+
+.link {
+    font-size: 13px;
+    padding: 0 5px 0 5px;
     
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+.icon1 {
+    width: 15px;
+    margin: 0 5px 0 5px;
+    filter: invert(1);
+}
+
+.icon2 {
+    width: 20px;
+    margin: 0 5px 0 5px;
+    filter: invert(1);
+}
+
+.icon3 {
+    width: 25px;
+    margin: 0 5px 0 5px;
+    filter: invert(1);
 }
