@@ -63,6 +63,90 @@ a:link, a:visited {
     padding-top: 80px;
 }
 
+#heart1 {
+    width: 50px;
+    position: absolute;
+    top: 164px;
+    left: 650px;
+    background-color: white;
+    border: solid white 7px;
+}
+
+#heart1:hover {
+    background-color: red;
+    border-color: red;
+    cursor: pointer;
+}
+
+#heart2 {
+    width: 50px;
+    position: absolute;
+    top: 164px;
+    left: 1140px;
+    background-color: white;
+    border: solid white 7px;
+}
+
+#heart2:hover {
+    background-color: red;
+    border-color: red;
+    cursor: pointer;
+}
+
+#heart3 {
+    width: 50px;
+    position: absolute;
+    top: 164px;
+    right: 240px;
+    background-color: white;
+    border: solid white 7px;
+}
+
+#heart3:hover {
+    background-color: red;
+    border-color: red;
+    cursor: pointer;
+}
+
+#pa1 {
+    position: absolute;
+    bottom: 150px;
+    background-color: red;
+    color: white;
+    border: solid red 7px;
+    width: 55px;
+}
+
+#pa2 {
+    position: absolute;
+    bottom: 150px;
+    left: 300px;
+    background-color: green;
+    color: white;
+    border: solid green 7px;
+    width: 115px;
+}
+
+#pa3 {
+    position: absolute;
+    bottom: 150px;
+    left: 730px;
+    background-color: red;
+    color: white;
+    border: solid red 7px;
+    width: 55px;
+}
+
+#pa4 {
+    position: absolute;
+    bottom: 150px;
+    right: 645px;
+    background-color: red;
+    color: white;
+    border: solid red 7px;
+    width: 55px;
+}
+
 .img1, .img2, .img3 {
     width: 460px;
     position: relative;
